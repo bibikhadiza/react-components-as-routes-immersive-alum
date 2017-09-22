@@ -282,8 +282,9 @@ So now that we know what component to use lets add them into our application.
 ```javascript 
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 /* Add NavLink to importer */
-import { BrowserRouter as Router, Route, NavLink } from 'react-router-dom';
+import { Navlink } from 'react-router-dom';
 
 /* Add basic styling for NavLinks */
 const link = {
